@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="t d">
+	<title id="t">De la idea al lanzamiento, en cuatro pasos</title>
+	<desc id="d">Una canica salta por cuatro escalones: Descubrir, Diseñar, Construir y Lanzar, cada uno con tres entregables.</desc>
+	<style>
+		.display { font-family: 'Arial Black', 'Helvetica Neue', Impact, system-ui, sans-serif; font-weight: 900; }
+		.mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+		.muted { fill: #8a8a90; }
+		/* Base styles are the final state: what reduced motion shows. */
+		.marble { transform: translate(940px, 157px); animation: hop 8s infinite; }
+		.squash { transform-box: fill-box; transform-origin: 50% 100%; animation: squash 8s infinite; }
+		.step { stroke: #c6f432; animation: lit 8s infinite; }
+		.p0 { animation-delay: -2.88s; } .p1 { animation-delay: -1.92s; } .p2 { animation-delay: -.96s; }
+		@keyframes hop {
+			0% { transform: translate(100px, -20px); opacity: 0; animation-timing-function: cubic-bezier(.55, 0, 1, .45); }
+			1% { opacity: 1; }
+			8% { transform: translate(100px, 87px); animation-timing-function: cubic-bezier(0, .55, .45, 1); }
+			14% { transform: translate(240px, 58px); animation-timing-function: cubic-bezier(.55, 0, 1, .45); }
+			20% { transform: translate(380px, 177px); animation-timing-function: cubic-bezier(0, .55, .45, 1); }
+			26% { transform: translate(520px, 10px); animation-timing-function: cubic-bezier(.55, 0, 1, .45); }
+			32% { transform: translate(660px, 67px); animation-timing-function: cubic-bezier(0, .55, .45, 1); }
+			38% { transform: translate(800px, 50px); animation-timing-function: cubic-bezier(.55, 0, 1, .45); }
+			44%, 86% { transform: translate(940px, 157px); opacity: 1; }
+			92%, 100% { transform: translate(940px, 157px); opacity: 0; }
+		}
+		@keyframes squash {
+			0%, 7.5%, 9%, 19.5%, 21%, 31.5%, 33%, 43.5%, 45%, 100% { transform: scale(1, 1); }
+			8%, 20%, 32%, 44% { transform: scale(1.3, .72); }
+		}
+		@keyframes lit {
+			0%, 43.9% { stroke: #e8e8ea; }
+			44%, 88% { stroke: #c6f432; }
+			92%, 100% { stroke: #e8e8ea; }
+		}
+		@media (prefers-reduced-motion: reduce) { .marble, .squash, .step { animation: none; } }
+	</style>
+
+	<rect width="1200" height="340" fill="#0b0b0d" />
+	<text class="display" x="340" y="300" font-size="180" fill="#ffffff" fill-opacity=".04" textLength="820" lengthAdjust="spacingAndGlyphs">HOW TO</text>
+	<text class="mono" x="60" y="40" font-size="12" letter-spacing="1.5" fill="#f04a1a">03 / CÓMO LO CONSTRUYO</text>
+	<text class="mono muted" x="1140" y="40" font-size="12" letter-spacing="1.5" text-anchor="end">IDEA → PRODUCCIÓN</text>
+
+	<!-- Four stairs: the second is the lowest, the third climbs back up. -->
+	<g stroke-width="3" stroke-linecap="square">
+		<line class="step p0" x1="60" y1="96" x2="300" y2="96" />
+		<line class="step p1" x1="340" y1="186" x2="580" y2="186" />
+		<line class="step p2" x1="620" y1="76" x2="860" y2="76" />
+		<line class="step" x1="900" y1="166" x2="1140" y2="166" />
+	</g>
+
+	<g fill="#e8e8ea">
+		<g transform="translate(60 96)">
+			<text class="mono" y="26" font-size="12" fill="#f04a1a">01</text>
+			<text class="display" y="58" font-size="24">DESCUBRIR</text>
+			<g class="mono muted" font-size="12"><text y="82">Entrevistas</text><text y="100">Mapa del problema</text><text y="118">Métrica de éxito</text></g>
+		</g>
+		<g transform="translate(340 186)">
+			<text class="mono" y="26" font-size="12" fill="#f04a1a">02</text>
+			<text class="display" y="58" font-size="24">DISEÑAR</text>
+			<g class="mono muted" font-size="12"><text y="82">Flujos</text><text y="100">Prototipo navegable</text><text y="118">Prueba con usuarios</text></g>
+		</g>
+		<g transform="translate(620 76)">
+			<text class="mono" y="26" font-size="12" fill="#f04a1a">03</text>
+			<text class="display" y="58" font-size="24">CONSTRUIR</text>
+			<g class="mono muted" font-size="12"><text y="82">Arquitectura</text><text y="100">Entregas semanales</text><text y="118">Tests y rendimiento</text></g>
+		</g>
+		<g transform="translate(900 166)">
+			<text class="mono" y="26" font-size="12" fill="#f04a1a">04</text>
+			<text class="display" y="58" font-size="24">LANZAR</text>
+			<g class="mono muted" font-size="12"><text y="82">Puesta en producción</text><text y="100">Analítica</text><text y="118">Iteración</text></g>
+		</g>
+	</g>
+
+	<g class="marble"><circle class="squash" cx="0" cy="0" r="8" fill="#c6f432" /></g>
+</svg>

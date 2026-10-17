@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="200" viewBox="0 0 600 200" role="img" aria-label="Estadísticas pendientes de la primera actualización">
+	<rect width="600" height="200" fill="#0b0b0d" />
+	<rect x=".5" y=".5" width="599" height="199" fill="none" stroke="#ffffff" stroke-opacity=".12" />
+	<path d="M12 6v12M6 12h12M588 6v12M582 12h12M12 182v12M6 188h12M588 182v12M582 188h12" stroke="#e8e8ea" stroke-opacity=".5" />
+	<text x="32" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.5" fill="#f04a1a">STATS / ÚLTIMO AÑO</text>
+	<text x="32" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#8a8a90">Se generan a diario con GitHub Actions.</text>
+	<line x1="32" y1="174" x2="568" y2="174" stroke="#e8e8ea" stroke-opacity=".35" />
+	<circle cx="38" cy="168" r="6" fill="#c6f432" />
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="36" viewBox="0 0 1200 36" role="img" aria-label="Separador">
+	<style>
+		.marble { animation: roll 7s cubic-bezier(.45, 0, .55, 1) infinite alternate; }
+		@keyframes roll { from { transform: translateX(0); } to { transform: translateX(1136px); } }
+		@media (prefers-reduced-motion: reduce) { .marble { animation: none; } }
+	</style>
+	<path d="M24 12v12M18 18h12M1176 12v12M1170 18h12" stroke="#8a8a90" />
+	<line x1="40" y1="24" x2="1160" y2="24" stroke="#8a8a90" stroke-opacity=".6" />
+	<g class="marble"><circle cx="32" cy="18" r="6" fill="#c6f432" /></g>
+</svg>

@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="t d">
+	<title id="t">Miguel Gutiérrez · Product developer</title>
+	<desc id="d">Una canica baja por un raíl, rebota sobre la palabra PRODUCT y su último golpe suelta siete tiras que enmascaran el titular en rojo.</desc>
+	<style>
+		.display { font-family: 'Arial Black', 'Helvetica Neue', Impact, system-ui, sans-serif; font-weight: 900; font-size: 112px; letter-spacing: -2px; }
+		.mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+		.muted { fill: #8a8a90; }
+
+		/* Base styles are the final state: what reduced motion shows. */
+		.rail { stroke-dasharray: 900; animation: rail 10s linear infinite; }
+		.marble { transform: translate(258px, 136px); animation: marble 10s infinite; }
+		.squash { transform-box: fill-box; transform-origin: 50% 100%; animation: squash 10s infinite; }
+		.ring { transform-box: fill-box; transform-origin: center; opacity: 0; animation: ring 10s ease-out infinite; }
+		.strip { animation: strip 10s infinite; }
+		.s0 { animation-delay: -0.72s; } .s1 { animation-delay: -0.6s; } .s2 { animation-delay: -0.48s; }
+		.s3 { animation-delay: -0.36s; } .s4 { animation-delay: -0.24s; } .s5 { animation-delay: -0.12s; }
+		.line { animation: line 10s infinite; }
+		.l0 { animation-delay: -0.6s; } .l1 { animation-delay: -0.4s; } .l2 { animation-delay: -0.2s; }
+
+		@keyframes rail {
+			0% { stroke-dashoffset: 900; }
+			4%, 90% { stroke-dashoffset: 0; }
+			96%, 100% { stroke-dashoffset: -900; }
+		}
+		@keyframes marble {
+			0% { transform: translate(1160px, 72px); opacity: 0; }
+			3% { transform: translate(1150px, 73px); opacity: 1; animation-timing-function: cubic-bezier(.55, 0, 1, .45); }
+			20% { transform: translate(310px, 112px); animation-timing-function: linear; }
+			23% { transform: translate(200px, 118px); animation-timing-function: ease-in; }
+			26% { transform: translate(95px, 138px); animation-timing-function: cubic-bezier(0, .55, .45, 1); }
+			30% { transform: translate(140px, 86px); animation-timing-function: cubic-bezier(.55, 0, 1, .45); }
+			33.5% { transform: translate(182px, 138px); animation-timing-function: cubic-bezier(0, .55, .45, 1); }
+			35.5% { transform: translate(220px, 114px); animation-timing-function: cubic-bezier(.55, 0, 1, .45); }
+			37.5%, 84% { transform: translate(258px, 136px); opacity: 1; }
+			88%, 100% { transform: translate(258px, 136px); opacity: 0; }
+		}
+		@keyframes squash {
+			0%, 25.5%, 27%, 33%, 34.5%, 37%, 39%, 100% { transform: scale(1, 1); }
+			26%, 33.8%, 37.7% { transform: scale(1.3, .72); }
+		}
+		@keyframes ring {
+			0%, 37.4% { transform: scale(.2); opacity: 0; }
+			37.5% { transform: scale(.2); opacity: 1; }
+			44%, 100% { transform: scale(2.6); opacity: 0; }
+		}
+		@keyframes strip {
+			0%, 45.6% { transform: translateY(-470px); animation-timing-function: cubic-bezier(.6, 0, .9, .5); }
+			48.6% { transform: translateY(10px); animation-timing-function: ease-out; }
+			50.2%, 81% { transform: translateY(0); animation-timing-function: cubic-bezier(.6, 0, .9, .5); }
+			87%, 100% { transform: translateY(480px); }
+		}
+		@keyframes line {
+			0%, 52% { opacity: 0; transform: translateX(-12px); }
+			57%, 84% { opacity: 1; transform: translateX(0); }
+			89%, 100% { opacity: 0; transform: translateX(0); }
+		}
+		@media (prefers-reduced-motion: reduce) {
+			.rail, .marble, .squash, .ring, .strip, .line { animation: none; }
+		}
+	</style>
+
+	<defs>
+		<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+			<path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".045" />
+		</pattern>
+		<symbol id="cross" viewBox="-8 -8 16 16" width="16" height="16" overflow="visible">
+			<path d="M-8 0H8M0-8V8" stroke="#e8e8ea" stroke-opacity=".55" />
+		</symbol>
+		<!-- One rect per strip: the same classes fall here and in the drawn strips. -->
+		<clipPath id="strips">
+			<rect class="strip s0" x="44" y="132" width="102" height="224" />
+			<rect class="strip s1" x="156" y="132" width="102" height="224" />
+			<rect class="strip s2" x="268" y="132" width="102" height="224" />
+			<rect class="strip s3" x="380" y="132" width="102" height="224" />
+			<rect class="strip s4" x="492" y="132" width="102" height="224" />
+			<rect class="strip s5" x="604" y="132" width="102" height="224" />
+			<rect class="strip" x="716" y="132" width="102" height="224" />
+		</clipPath>
+	</defs>
+
+	<rect width="1200" height="420" fill="#0b0b0d" />
+	<rect width="1200" height="420" fill="url(#grid)" />
+
+	<!-- Registration marks. -->
+	<use href="#cross" x="16" y="16" />
+	<use href="#cross" x="1168" y="16" />
+	<use href="#cross" x="16" y="388" />
+	<use href="#cross" x="1168" y="388" />
+	<use href="#cross" x="832" y="128" />
+
+	<!-- Annotations. -->
+	<text class="mono muted" x="56" y="50" font-size="12" letter-spacing="1.5">FIG. 01 · STORYTELLING BY SCROLL</text>
+	<text class="mono muted" x="1144" y="50" font-size="12" letter-spacing="1.5" text-anchor="end">GT2RZ / README.MD</text>
+	<text class="mono" x="56" y="392" font-size="13" letter-spacing="2" fill="#e8e8ea">MIGUEL GUTIÉRREZ</text>
+	<text class="mono muted" x="1128" y="392" font-size="13" letter-spacing="1" text-anchor="end">gt2rz.dev</text>
+	<circle cx="1140" cy="388" r="5" fill="#c6f432" />
+
+	<!-- The rail the marble comes down. -->
+	<g stroke="#e8e8ea" stroke-linecap="round">
+		<line class="rail" x1="1170" y1="84" x2="300" y2="124" stroke-width="2" />
+		<path d="M1170 84v10M735 104v10M300 124v10" stroke-opacity=".5" />
+	</g>
+
+	<!-- The headline, then the strips over it, then the headline again in red inside them. -->
+	<g class="display" fill="#e8e8ea">
+		<text x="56" y="230" textLength="588" lengthAdjust="spacingAndGlyphs">PRODUCT</text>
+		<text x="56" y="340" textLength="756" lengthAdjust="spacingAndGlyphs">DEVELOPER</text>
+	</g>
+	<g fill="#333">
+		<rect class="strip s0" x="44" y="132" width="102" height="224" />
+		<rect class="strip s1" x="156" y="132" width="102" height="224" />
+		<rect class="strip s2" x="268" y="132" width="102" height="224" />
+		<rect class="strip s3" x="380" y="132" width="102" height="224" />
+		<rect class="strip s4" x="492" y="132" width="102" height="224" />
+		<rect class="strip s5" x="604" y="132" width="102" height="224" />
+		<rect class="strip" x="716" y="132" width="102" height="224" />
+	</g>
+	<g class="display" fill="#f04a1a" clip-path="url(#strips)">
+		<text x="56" y="230" textLength="588" lengthAdjust="spacingAndGlyphs">PRODUCT</text>
+		<text x="56" y="340" textLength="756" lengthAdjust="spacingAndGlyphs">DEVELOPER</text>
+	</g>
+
+	<!-- What I do, on the right. -->
+	<path d="M856 150V340" stroke="#e8e8ea" stroke-opacity=".25" />
+	<text class="mono" x="880" y="170" font-size="12" letter-spacing="1.5" fill="#f04a1a">01 / QUÉ HAGO</text>
+	<g class="mono" font-size="15" fill="#e8e8ea">
+		<text class="line l0" x="880" y="212">Ideas → productos digitales.</text>
+		<text class="line l1" x="880" y="240">Diseño, construyo, despliego</text>
+		<text class="line l1" x="880" y="262">e itero.</text>
+		<text class="line l2" x="880" y="290" fill="#8a8a90">Cada detalle importa.</text>
+		<text class="line" x="880" y="318" fill="#c6f432">Potenciado con IA.</text>
+	</g>
+
+	<!-- The marble, last so it sits over everything it hits. -->
+	<circle class="ring" cx="258" cy="147" r="14" fill="none" stroke="#f04a1a" stroke-width="2" />
+	<g class="marble">
+		<circle class="squash" cx="0" cy="0" r="11" fill="#c6f432" />
+	</g>
+</svg>

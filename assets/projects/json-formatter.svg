@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="170" viewBox="0 0 600 170" role="img" aria-label="JSON Formatter · BETA · Web, Herramienta, Desarrollo">
+	<style>
+		.display { font-family: 'Arial Black', 'Helvetica Neue', Impact, system-ui, sans-serif; font-weight: 900; }
+		.mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+		.rail { stroke-dasharray: 536; animation: rail 1.2s cubic-bezier(.2, .7, .2, 1) both; }
+		.marble { transform: translateX(556px); animation: roll 1.6s cubic-bezier(.3, 0, .2, 1) both; }
+		@keyframes rail { from { stroke-dashoffset: 536; } }
+		@keyframes roll { 0% { transform: translateX(20px); } 80% { transform: translateX(562px); } 100% { transform: translateX(556px); } }
+	</style>
+	<rect width="600" height="170" fill="#0b0b0d" />
+	<rect x=".5" y=".5" width="599" height="169" fill="none" stroke="#ffffff" stroke-opacity=".12" />
+	<path d="M12 6v12M6 12h12M588 6v12M582 12h12M12 152v12M6 158h12M588 152v12M582 158h12" stroke="#e8e8ea" stroke-opacity=".5" />
+	<text class="mono" x="32" y="44" font-size="12" letter-spacing="1.5" fill="#f04a1a">05<tspan fill="#8a8a90"> / PROYECTO</tspan></text>
+	<rect x="514.4" y="30" width="53.6" height="20" fill="none" stroke="#c6f432" />
+	<text class="mono" x="558" y="44" font-size="12" letter-spacing="1.5" fill="#c6f432" text-anchor="end">BETA</text>
+	<text class="display" x="32" y="96" font-size="30" fill="#e8e8ea">JSON FORMATTER</text>
+	<text class="mono" x="32" y="126" font-size="12" letter-spacing="1" fill="#8a8a90">WEB  ·  HERRAMIENTA  ·  DESARROLLO</text>
+	<text class="mono" x="568" y="126" font-size="12" fill="#e8e8ea" text-anchor="end">json-formatter.gt2rz.dev ↗</text>
+	<line class="rail" x1="32" y1="148" x2="568" y2="148" stroke="#e8e8ea" stroke-opacity=".35" />
+	<g class="marble"><circle cx="0" cy="141" r="6" fill="#c6f432" /></g>
+</svg>
