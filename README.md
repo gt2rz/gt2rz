@@ -17,7 +17,7 @@ I'm a **product developer**: I turn ideas into digital products. I discover the 
 <p>
   <a href="https://gt2rz.dev"><img alt="gt2rz.dev" src="https://img.shields.io/badge/gt2rz.dev-portfolio-c6f432?style=flat-square&labelColor=0b0b0d" /></a>
   <a href="https://gt2rz.dev"><img alt="Hablemos de tu producto" src="https://img.shields.io/badge/hablemos-de_tu_producto-f04a1a?style=flat-square&labelColor=0b0b0d" /></a>
-  <a href="https://gt2rz.dev/proyectos"><img alt="Todos los proyectos" src="https://img.shields.io/badge/proyectos-5-e8e8ea?style=flat-square&labelColor=0b0b0d" /></a>
+  <a href="https://gt2rz.dev/proyectos"><img alt="Todos los proyectos" src="https://img.shields.io/badge/proyectos-6-e8e8ea?style=flat-square&labelColor=0b0b0d" /></a>
 </p>
 
 <img src="assets/divider.svg" width="100%" alt="" />
@@ -36,12 +36,12 @@ I'm a **product developer**: I turn ideas into digital products. I discover the 
   </tr>
   <tr>
     <td>
-      <a href="https://adoptme.gt2rz.dev/"><img src="assets/projects/adoptme.svg" alt="AdoptMe · PoC · web, animación, storytelling" /></a>
-      <p>Landing de un refugio que cuenta con el scroll la historia de Mateo y Mía: un cuaderno a lápiz bajo la lluvia que se colorea al adoptarlos.</p>
-      <p><sub><i>A shelter's landing page told by scroll: a pencil sketchbook in the rain that fills with colour once they're adopted.</i></sub></p>
-      <sub><code>Astro</code> <code>GSAP</code> <code>Three.js</code> <code>SVG</code></sub>
+      <a href="https://mailcrafter.gt2rz.cloud/"><img src="assets/projects/mail-crafter.svg" alt="Mail Crafter · PoC · web, email, editor visual" /></a>
+      <p>Editor visual de plantillas de email para equipos: bloques, variables con valores de ejemplo y HTML con los estilos en línea, listo para Gmail, Outlook y Apple Mail, con vista previa aislada, envío de prueba e historial de versiones.</p>
+      <p><sub><i>Visual email template editor for teams: drag-and-drop blocks, safe variables and inlined HTML for Gmail, Outlook and Apple Mail, with sandboxed preview, test sends and version history.</i></sub></p>
+      <sub><code>Laravel</code> <code>Inertia</code> <code>Vue</code> <code>GrapesJS</code> <code>PostgreSQL</code></sub>
     </td>
-    <td width="44%"><a href="https://adoptme.gt2rz.dev/"><img src="assets/projects/adoptme.jpg" alt="El día soleado: Mateo y Mía a color bajo el arcoíris" /></a></td>
+    <td width="44%"><a href="https://mailcrafter.gt2rz.cloud/"><img src="assets/projects/mail-crafter.jpg" alt="El editor: la plantilla armada con bloques y sus variables" /></a></td>
   </tr>
   <tr>
     <td width="44%"><a href="https://h3-demo.gt2rz.dev/"><img src="assets/projects/h3-logistica.jpg" alt="La zona de cobertura de una bodega en celdas hexagonales H3" /></a></td>
@@ -69,6 +69,15 @@ I'm a **product developer**: I turn ideas into digital products. I discover the 
       <p><sub><i>Validate, repair and format JSON locally: tree view, diff, and generated types for TypeScript, Zod, Go, Python and Rust.</i></sub></p>
       <sub><code>TypeScript</code> <code>Web</code> <code>Local-first</code></sub>
     </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://adoptme.gt2rz.dev/"><img src="assets/projects/adoptme.svg" alt="AdoptMe · PoC · web, animación, storytelling" /></a>
+      <p>Landing de un refugio que cuenta con el scroll la historia de Mateo y Mía: un cuaderno a lápiz bajo la lluvia que se colorea al adoptarlos.</p>
+      <p><sub><i>A shelter's landing page told by scroll: a pencil sketchbook in the rain that fills with colour once they're adopted.</i></sub></p>
+      <sub><code>Astro</code> <code>GSAP</code> <code>Three.js</code> <code>SVG</code></sub>
+    </td>
+    <td width="44%"><a href="https://adoptme.gt2rz.dev/"><img src="assets/projects/adoptme.jpg" alt="El día soleado: Mateo y Mía a color bajo el arcoíris" /></a></td>
   </tr>
 </table>
 

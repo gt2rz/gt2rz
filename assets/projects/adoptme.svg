@@ -10,7 +10,7 @@
 	<rect width="600" height="170" fill="#0b0b0d" />
 	<rect x=".5" y=".5" width="599" height="169" fill="none" stroke="#ffffff" stroke-opacity=".12" />
 	<path d="M12 6v12M6 12h12M588 6v12M582 12h12M12 152v12M6 158h12M588 152v12M582 158h12" stroke="#e8e8ea" stroke-opacity=".5" />
-	<text class="mono" x="32" y="44" font-size="12" letter-spacing="1.5" fill="#f04a1a">02<tspan fill="#8a8a90"> / PROYECTO</tspan></text>
+	<text class="mono" x="32" y="44" font-size="12" letter-spacing="1.5" fill="#f04a1a">06<tspan fill="#8a8a90"> / PROYECTO</tspan></text>
 	<rect x="522.8" y="30" width="45.2" height="20" fill="none" stroke="#f04a1a" />
 	<text class="mono" x="558" y="44" font-size="12" letter-spacing="1.5" fill="#f04a1a" text-anchor="end">POC</text>
 	<text class="display" x="32" y="96" font-size="30" fill="#e8e8ea">ADOPTME</text>
