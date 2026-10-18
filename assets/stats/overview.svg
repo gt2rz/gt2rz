@@ -22,19 +22,19 @@
 	<text class="display" x="440" y="98" font-size="30" fill="#e8e8ea">99 · 0</text>
 	<text class="mono" x="440" y="118" font-size="10" letter-spacing="1" fill="#8a8a90">REPOS · ★</text>
 	<g>
-		<rect class="grow" style="animation-delay:0ms" x="32" y="165" width="33" height="7" fill="#e8e8ea" fill-opacity="0.55" />
+		<rect class="grow" style="animation-delay:0ms" x="32" y="170" width="33" height="2" fill="#333" fill-opacity="1" />
 		<rect class="grow" style="animation-delay:40ms" x="77" y="170" width="33" height="2" fill="#333" fill-opacity="1" />
-		<rect class="grow" style="animation-delay:80ms" x="122" y="170" width="33" height="2" fill="#333" fill-opacity="1" />
-		<rect class="grow" style="animation-delay:120ms" x="167" y="158" width="33" height="14" fill="#e8e8ea" fill-opacity="0.55" />
-		<rect class="grow" style="animation-delay:160ms" x="212" y="161" width="33" height="11" fill="#e8e8ea" fill-opacity="0.55" />
-		<rect class="grow" style="animation-delay:200ms" x="257" y="170" width="33" height="2" fill="#333" fill-opacity="1" />
-		<rect class="grow" style="animation-delay:240ms" x="302" y="169" width="33" height="3" fill="#e8e8ea" fill-opacity="0.55" />
+		<rect class="grow" style="animation-delay:80ms" x="122" y="158" width="33" height="14" fill="#e8e8ea" fill-opacity="0.55" />
+		<rect class="grow" style="animation-delay:120ms" x="167" y="161" width="33" height="11" fill="#e8e8ea" fill-opacity="0.55" />
+		<rect class="grow" style="animation-delay:160ms" x="212" y="170" width="33" height="2" fill="#333" fill-opacity="1" />
+		<rect class="grow" style="animation-delay:200ms" x="257" y="169" width="33" height="3" fill="#e8e8ea" fill-opacity="0.55" />
+		<rect class="grow" style="animation-delay:240ms" x="302" y="170" width="33" height="2" fill="#333" fill-opacity="1" />
 		<rect class="grow" style="animation-delay:280ms" x="347" y="170" width="33" height="2" fill="#333" fill-opacity="1" />
 		<rect class="grow" style="animation-delay:320ms" x="392" y="170" width="33" height="2" fill="#333" fill-opacity="1" />
-		<rect class="grow" style="animation-delay:360ms" x="437" y="170" width="33" height="2" fill="#333" fill-opacity="1" />
-		<rect class="grow" style="animation-delay:400ms" x="482" y="155" width="33" height="17" fill="#e8e8ea" fill-opacity="0.55" />
-		<rect class="grow" style="animation-delay:440ms" x="527" y="138" width="33" height="34" fill="#c6f432" fill-opacity="1" />
+		<rect class="grow" style="animation-delay:360ms" x="437" y="155" width="33" height="17" fill="#e8e8ea" fill-opacity="0.55" />
+		<rect class="grow" style="animation-delay:400ms" x="482" y="138" width="33" height="34" fill="#c6f432" fill-opacity="1" />
+		<rect class="grow" style="animation-delay:440ms" x="527" y="170" width="33" height="2" fill="#333" fill-opacity="1" />
 	</g>
 	<line x1="32" y1="174" x2="568" y2="174" stroke="#e8e8ea" stroke-opacity=".35" />
-	<text class="mono" x="568" y="190" font-size="9" letter-spacing="1" fill="#8a8a90" text-anchor="end">ÚLTIMAS 12 SEMANAS · 2026-10-17</text>
+	<text class="mono" x="568" y="190" font-size="9" letter-spacing="1" fill="#8a8a90" text-anchor="end">ÚLTIMAS 12 SEMANAS · 2026-10-18</text>
 </svg>
